@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://robertchenbao.github.io</id>
-    <title>College Programmer</title>
-    <updated>2020-08-11T14:34:10.406Z</updated>
+    <title>Robert&apos;s Space</title>
+    <updated>2020-08-11T19:55:03.171Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://robertchenbao.github.io"/>
     <link rel="self" href="https://robertchenbao.github.io/atom.xml"/>
-    <subtitle>Productivity, Coding and other things</subtitle>
+    <subtitle>Productivity, Coding, College Life, etc.</subtitle>
     <logo>https://robertchenbao.github.io/images/avatar.png</logo>
     <icon>https://robertchenbao.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, College Programmer</rights>
+    <rights>All rights reserved 2020, Robert&apos;s Space</rights>
 </feed>
