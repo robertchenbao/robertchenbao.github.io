@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
 <title>
     Robert&#39;s Space
@@ -46,12 +45,42 @@
                                 })();
                             </script>
                             
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-</head>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/fuse.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/ejs.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/lib/gridea-search.min.js"></script>
+    <script
+      src="//cdn.jsdelivr.net/gh/tangkaichuan/gridea-search/example/assets/media/gridea-search/result-template.ejs"
+      type="text/ejs"
+    ></script>
+    <style>
+      .main_ {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+      }
 
-<body>
-    <div class="wrapper">
-        <header>
+      .result-box {
+        margin-top: 50px;
+        display: flex;
+        border-radius: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <style>
+      .searched-keyword {
+        background-color: green;
+      }
+    </style>
+    <div class="main_">
+      <header>
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
@@ -158,75 +187,16 @@
     }
 </script>
 
-            <div class="main">
-                <div class="container">
-                    <div class="intro">
-                        <div class="avatar">
-                            <a href="https://robertchenbao.github.io"><img src="https://robertchenbao.github.io/images/avatar.png?v=1597405396735"></a>
-                        </div>
-                        <div class="nickname">
-                            Robert Bao
-                        </div>
-                        <div class="description">
-                            <span id="subtitle">
-                                coding, productivity, college life, etc
-                            </span>
-                        </div>
-                        <div class="links">
-                            
-                                
-                                        
-                                
-                                        
-                                
-                                        
-                                
-                                    <a class="link-item" href="https://github.com/robertchenbao" title="github"><i class="fa fa-github"></i></a>
-                                    
-                                        
-                                
-                                    <a class="link-item" href="https://www.linkedin.com/in/chen-bao-428a96146/" title="linkedin"><i class="fa fa-linkedin"></i></a>
-                                    
-                                        
-                                
-                                        
-                                
-                                    <a class="link-item" href="https://www.instagram.com/robert.bao0905/" title="instagram"><i class="fa fa-instagram"></i></a>
-                                    
-                                        
-                                
-                                        
-                                
-                                        
-                                
-                                        
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="result-box">
+        <div id="gridea-search-result">
+          <p class="searching">Searching......</p>
+          <!-- <p class="no-result" style="display:none">未搜索到相关文章</p> -->
+          <p class="no-result" style="display: none;">Nothing here!</p>
+        </div>
+      </div>
     </div>
-
-</body>
-<script>
-    // type 
-    var typed = new Typed("#subtitle", {
-        strings: ['coding, productivity, college life, etc', '', ''],
-        startDelay: 10,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-    });
-    //head title
-    var titleTime;
-    document.addEventListener("visibilitychange", function() {
-        document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
-            document.title = OriginTitile
-        }, 2E3))
-    });
-    var OriginTitile = document.title;
-</script>
-
+  </body>
+  
 <footer id="footer" class="footer">
   <div class="copyright">
      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> 
@@ -277,6 +247,5 @@
   console.log(" Blog Update Time: " + newDate.toLocaleDateString());
   console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
 </script>
-
 
 </html>
