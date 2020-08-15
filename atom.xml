@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://robertb.me</id>
     <title>Robert&apos;s Space</title>
-    <updated>2020-08-15T11:04:26.273Z</updated>
+    <updated>2020-08-15T17:01:41.517Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://robertb.me"/>
     <link rel="self" href="https://robertb.me/atom.xml"/>
@@ -10,6 +10,41 @@
     <logo>https://robertb.me/images/avatar.png</logo>
     <icon>https://robertb.me/favicon.ico</icon>
     <rights>All rights reserved 2020, Robert&apos;s Space</rights>
+    <entry>
+        <title type="html"><![CDATA[UVa Bridge Summer Program: Quite a Great Experience!]]></title>
+        <id>https://robertb.me/post/uva-bridge-summer-program-quite-a-great-experience/</id>
+        <link href="https://robertb.me/post/uva-bridge-summer-program-quite-a-great-experience/">
+        </link>
+        <updated>2020-08-11T12:52:05.000Z</updated>
+        <content type="html"><![CDATA[<p>I just finished the Bridge 2020 Summer Program at UVa. It is my first experience of college life. Here are my thoughts, and hopefully, they will serve as a good reference for the prospective students.</p>
+<p>Shown below is my schedule during bridge.</p>
+<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Bridge_2.JPG" alt="schedule during bridge" loading="lazy"></figure>
+<h2 id="tldr">TL;DR</h2>
+<ul>
+<li>The Bridge Summer Program is composed of a Pre-Calculus math class, presentations, study halls, and bonding events.</li>
+<li>The Pre-Cal class is easy at first but gets more challenging by the end. However, the professor, Dr. Timchenko, is amazing.</li>
+<li>Most workshops and presentations are really useful. They cover lots of resources at UVa, as well as the first-hand experience of many students.</li>
+<li>Bridge is also a great opportunity to meet people and make friends.</li>
+<li>I am really glad to join this program. Worth the time &amp; effort to apply!</li>
+</ul>
+<h2 id="math-class-intense-but-well-taught">Math class: Intense but Well-taught</h2>
+<h3 id="the-pre-cal-class">The Pre-Cal Class</h3>
+<p>The math class offered at Bridge program is a 3-week Pre-Calculus class. It officially called &quot;Applied Math&quot;, which is quite a generic name. LOL.</p>
+<p>However, <strong>although this course only covers Pre-Cal concepts, it was much more challenging than I expected</strong>. One big reason is it is taught in three weeks, which is <em>really short</em> given it covers an entire course.</p>
+<p>The first two weeks covered types of functions and trigonometry, which were relatively easy. However, the third week was rough. Near the end of the week, the professor introduced  <em>Conic Sections</em>. I have never studied this topic before (unlike other topics in the course), and I had <em>less than two days</em> to study it before the final exam. As a result, I did not have a solid understanding of it and ended up missing several conic section questions in the final.</p>
+<p>We did all homework on a platform called myOpenMath, which looks like this. Tips: After the homework is due, use &quot;practice mode&quot; if you needs extra practice!</p>
+<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Bridge_1.png" alt="myOpenMath" loading="lazy"></figure>
+<h3 id="awesome-professor">Awesome Professor</h3>
+<p>The professor, Dr. Timchenko, is amazing. She is one of the best math teachers I have had. She can teach the concepts in a very clear manner, which makes her lecture easy to follow. She is also a nice and approachable person.</p>
+<h2 id="afternoon-sessions-workshops-and-panels">Afternoon Sessions: Workshops and Panels</h2>
+<p>The afternoon sessions include workshops and other presentations. Most sessions are hosted by staff members, and others by upper-class undergraduate students. These presentations are good, as they helped me familiarize myself with the resources on the ground <strong>They cover a wide range of topics</strong>, from financial aid to time management.</p>
+<p><strong>The Q&amp;A sessions turn out to be very helpful.</strong> Most presenters will have a short Q&amp;A with Bridge participants, which is great because I could (1) ask questions of my interest and (2) learn from others' questions.</p>
+<h2 id="making-friends">Making Friends</h2>
+<p>This is arguably the most significant benefit. <strong>I met many other incoming first-year students.</strong> I became friends with quite a few of them through bond events and group activities in math class. My camp counselor, who is Bridge alumni, told me she is still close friends with her Bridge classmates. For out-of-state students like me, who do not know anyone at UVa before, this can be particularly important.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>I am really glad that I participated in this program. For those who received invitations (via email), it is worth the time &amp; effort to apply!</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Pomodoro Technique: Why, and How]]></title>
         <id>https://robertb.me/post/pomodoro-technique-why-and-how/</id>
