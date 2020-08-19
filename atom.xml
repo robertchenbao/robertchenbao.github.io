@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://robertb.me</id>
     <title>Robert&apos;s Space</title>
-    <updated>2020-08-19T19:19:59.360Z</updated>
+    <updated>2020-08-19T19:59:24.740Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://robertb.me"/>
     <link rel="self" href="https://robertb.me/atom.xml"/>
@@ -10,6 +10,61 @@
     <logo>https://robertb.me/images/avatar.png</logo>
     <icon>https://robertb.me/favicon.ico</icon>
     <rights>All rights reserved 2020, Robert&apos;s Space</rights>
+    <entry>
+        <title type="html"><![CDATA[Learning Go Part 1: Why Go?]]></title>
+        <id>https://robertb.me/post/learning-go-part-1-why-go/</id>
+        <link href="https://robertb.me/post/learning-go-part-1-why-go/">
+        </link>
+        <updated>2020-08-19T07:56:00.000Z</updated>
+        <content type="html"><![CDATA[<p>I am currently learning Go language with the Coursera class, <a href="https://www.coursera.org/learn/golang-getting-started">Getting Started with Go</a>. This post is written based on lectures in week 1 of the course.</p>
+<h2 id="an-introduction">An Introduction</h2>
+<p>The Go <a href="https://golang.org/">official website</a> describes Go as &quot;an open-source programming language that makes it easy to build  <strong>simple</strong>,  <strong>reliable</strong>, and  <strong>efficient</strong>  software.&quot;</p>
+<p>In my opinion, it does this job well though <strong>simple syntax</strong>, <strong>garbage collection</strong>, and <strong>support for concurrency</strong>.</p>
+<img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Golang.png" alt="Golang" style="zoom:50%;" />
+<h2 id="simplicity">Simplicity</h2>
+<p>OOP (Object-oriented programming) is a paradigm that describes concepts using class. In OOP, Classes serve as templates. The programmers then build objects based on them. If classes are like blueprints, then the objects are like real buildings.</p>
+<p>Different from common OOP programming languages like Java, Go does not use the term class. Instead, it borrowed a concept called  <strong>structs</strong> from C language. It removed concepts such as inheritance or generics. In short, Go's implementation is simplified. Hence, Go is much easier to learn. In an <a href="https://www.youtube.com/watch?v=O9upVbGSBFo">interview with Lex Fridman</a>, Brian Kernighan, a professor of at Princeton, states it takes him a lot less time to accomplish a task compared to some other languages such as Haskell or Rust.</p>
+<h2 id="performance">Performance</h2>
+<p>There is a trade-off while designing a programming language: efficiency vs ease-of-use.</p>
+<p>Every piece of software, such as Python, Java or Go, must be translated into the machine language of processors. This can be done in two ways: compile it, or interpret it.</p>
+<p>The &quot;compiler approach&quot; means to translate instructions <em>once</em> before running the code, which will save time when the program is running. Hence, complied programs can often be extremely fast. But since compilers can be very picky, this type of programming language can often be difficult to code.</p>
+<p>On the other hand, the &quot;interpreter approach&quot; requires to translate instructions every time while the code is executed with an interpreter. With the interpreters, interpreted programming languages are easier to work with. They automatically manage memory. Moreover, programmers don't have to specify variable types (i.e. <code>int</code>, <code>float</code>, etc.) The downside is the program will be slower.</p>
+<table>
+<thead>
+<tr>
+<th>Language Type</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compiled language</td>
+<td>Fast!</td>
+<td>Hard to work with</td>
+</tr>
+<tr>
+<td>Interpreted language</td>
+<td>Easy-to-use</td>
+<td>Slow</td>
+</tr>
+</tbody>
+</table>
+<p>Go combines many features of interpreted and compiled languages. It is designed as a compiled language, yet it has many features borrowed from interpreted languages. Thus, it (to a certain degree) gets the best of both worlds.</p>
+<h3 id="concurrency">Concurrency</h3>
+<p>Concurrency comes from the need for speed.</p>
+<p>For more than a decade, computers have been speeding up. With better processors, the software can even run faster without any optimization.</p>
+<p>However, this came to a halt in the last few years. The engineers have reached <strong>a limit in producing microprocessors</strong>. If they put more circuits in the CPU, the CPUs will easily overheat the motherboard.</p>
+<p>So, some software engineers came up with the idea of <strong>parallelism</strong>. That is, to add more cores of processors in the CPU, so it can run multiple tasks can run at the same time. But more questions arise: how to organize the tasks? how to distribute the tasks among cores? What if the tasks are interdependent?</p>
+<p>Hence, to achieve concurrent programming, a software (i.e. a programming language) has to deal with:</p>
+<ol>
+<li>Management of tasks</li>
+<li>Communication between tasks</li>
+<li>Sync between tasks</li>
+</ol>
+<p>These problems are certainly not easy. However, Go managed to create a simple interface for concurrent programming. It has <strong>built-in Concurrency abilities</strong> that is both <strong>efficient and easy to use</strong>.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UVa Bridge Summer Program: Quite a Great Experience!]]></title>
         <id>https://robertb.me/post/uva-bridge-summer-program-quite-a-great-experience/</id>
@@ -50,12 +105,12 @@
         <id>https://robertb.me/post/pomodoro-technique-why-and-how/</id>
         <link href="https://robertb.me/post/pomodoro-technique-why-and-how/">
         </link>
-        <updated>2020-08-09T21:26:21.000Z</updated>
+        <updated>2020-08-09T09:26:21.000Z</updated>
         <content type="html"><![CDATA[<p>One of the most valuable &quot;productivity tricks&quot; I learned was the Pomodoro technique. This concept has been discussed over and over by numerous productivity geeks, yet many around me still haven't heard of it. So, here is an introduction.</p>
 <h2 id="overworked-exhausted-repeat">Overworked, Exhausted, Repeat</h2>
 <p>Before learning this trick, I constantly overwork myself. Sometimes, I did it because I had to finish an assignment before the deadline; other times, it is because I was simply &quot;in the zone&quot;.</p>
 <p>As a result, I frequently experienced burnouts. I would feel exhausted, with no motivation to do whatever at hand. Even if I force myself to get some work done, I usually couldn't focus. Ugh.</p>
-<figure data-type="image" tabindex="1"><img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Pomodoro%20%231.png" alt="Pomodoro #1" loading="lazy"></figure>
+<img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Pomodoro%20%231.png" alt="Pomodoro #1" style="zoom:25%;" />
 <h2 id="enter-the-pomodoro-technique">Enter the Pomodoro technique.</h2>
 <p>In 2018, I learned about the Pomodoro technique. It is a time-management method developed by Francesco Cirillo. It essentially forces you to switch between focused work and short breaks.</p>
 <blockquote>
@@ -71,7 +126,7 @@
 <p>-- Excerpt from <a href="https://francescocirillo.com/pages/pomodoro-technique">Francesco Cirillo's website</a></p>
 </blockquote>
 <p>This method has several benefits. Some people found it helpful for keeping track of how much work is done in a day. I found it extremely helpful for avoiding burnouts.</p>
-<figure data-type="image" tabindex="2"><img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Pomodoro%20%232.png" alt="Pomodoro #2" loading="lazy"></figure>
+<img src="https://raw.githubusercontent.com/robertchenbao/Pictures/master/uPic/Pomodoro%20%232.png" alt="Pomodoro #2" style="zoom:25%;" />
 <h2 id="what-to-do-during-breaks">What to do during breaks.</h2>
 <p>When I first began to use the Pomodoro technique, I didn't quite know what was I supposed to do during breaks. Here are some suggestions for beginners:</p>
 <ul>
