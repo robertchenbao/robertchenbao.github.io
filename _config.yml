@@ -15,9 +15,9 @@ dark-theme: false
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: false
-resume-url:  assets/files/resume.pdf
+# resume: true
+# resume-external: false
+# resume-url:  assets/files/resume.pdf
 
 url: https://robertchenbao.github.io
 
@@ -104,7 +104,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jemoji
   - jekyll-paginate-v2
 
