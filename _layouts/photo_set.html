@@ -7,12 +7,12 @@ layout: page
 <h1>{{ page.title }}</h1>
 <ul class="list-photos ">
   <li class="list-photos__item">
-    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-cover.JPG"
+    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-cover.jpeg"
       alt="Photo 0 from {{ page.photos.set | capitalize }}">
   </li>
   {% for i in (1..num) %}
   <li class="list-photos__item">
-    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-{{ i }}.JPG"
+    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-{{ i }}.jpeg"
       alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
   </li>
   {% endfor %}
