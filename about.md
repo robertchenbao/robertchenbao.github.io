@@ -4,6 +4,6 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Hi! I'm Robert, a Computer Science major at UVA. Previously, I interned at <a class="link" href="https://callminer.com">CallMiner</a>, and UVA's <a class="link" href="https://biocomplexity.virginia.edu/">Biocomplexity Institute</a>. I've also worked on several personal projects.</p>
+Hi! I'm Robert. I am a Computer Science major at UVA, planning to graduate in Fall 2023. Previously, I have interned at [CallMiner](https://callminer.com) and [Amazon Web Services](https://aws.amazon.com). I have also completed research projects at both UVA's [Biocomplexity Institute](https://biocomplexity.virginia.edu/) and its [CS department](https://engineering.virginia.edu/departments/computer-science).
 
-<p>I like building projects that make a tangible impact. If you'd like to learn more about my past work/projects, check out my <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">resume</a>!</p>
+I like building projects that have a tangible impact on companies/communities. If you'd like to learn more about things I've worked on, check out [my projects](https://robertchenbao.github.io/projects) or my [LinkedIn page](https://www.linkedin.com/in/robertchenbao)!
