@@ -4,7 +4,7 @@ title: Projects
 ---
 # Projects
 
-I have worked on several projects, and many of them can be found on [GitHub](https://github.com/robertchenbao?tab=repositories). They have mostly focused on three areas: general web development, machine learning (with both traditional approaches like regression and Large Language Models), and community-level resilience against natural disasters.
+I have worked on several projects, and many of them can be found on [GitHub](https://github.com/robertchenbao?tab=repositories). They have mostly focused on three areas: general web development, machine learning (with both traditional approaches like regression and new technologies like Large Language Models), and community-level resilience against natural disasters.
 
 Here is a (selected) list of them:
 
