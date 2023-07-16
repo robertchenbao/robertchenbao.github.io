@@ -6,5 +6,5 @@ description: "University of Virginia, July 2023"
 
 photos:
     set: uva-2023-spring
-    size: 3
+    size: 7
 ---

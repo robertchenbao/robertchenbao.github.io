@@ -1,17 +1,24 @@
 ---
-layout: default
+layout: page
 ---
 
 {% assign num = page.photos.size %}
 
 <h1>{{ page.title }}</h1>
-<ul>
+<ul class="list-photos ">
+  <li class="list-photos__item">
+    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-cover.jpg"
+      alt="Photo 0 from {{ page.photos.set | capitalize }}">
+  </li>
   {% for i in (1..num) %}
-  <li>
-    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
+  <li class="list-photos__item">
+    <img src="{{ site.baseurl }}/assets/images/photos/{{ page.photos.set }}-{{ i }}.jpg"
+      alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
   </li>
   {% endfor %}
 </ul>
 <div>
-  <a href="{{ site.baseurl }}/photos/">View All Photo Sets</a>
+  <a href="{{ site.baseurl }}/photos/">
+    <h4 style="text-align: center;" class="card__desc">View All Photo Sets</h4>
+  </a>
 </div>
