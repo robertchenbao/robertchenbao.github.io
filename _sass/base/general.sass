@@ -17,6 +17,7 @@ h1
 	letter-spacing: -1px
 	color: $beta
 	font-weight: 700
+	text-align: center
 
 h2
 	font-size: 2.2rem
@@ -146,11 +147,10 @@ pre
 	max-width: 1215px
 
 .grid
+	display: grid
+	grid-template-columns: repeat(2, 1fr)
+	gap: 32px
 	list-style: none
-
-.grid__item
-	width: 50%
-	margin-bottom: 0
 
 .grid__item
 	display: inline-block
